@@ -61,6 +61,14 @@ public class MyStack<T> {
         s.push(56);
         System.out.println("\nStack Elements: " );
         s.display();
+
+        System.out.println("\nDelete first element of stack: "+s.pop());
+        System.out.println("\nStack Elements: " );
+        s.display();
+        System.out.println("\nPeak of Stack: "+s.peak());
+
+        System.out.println("\nStack Elements: " );
+        s.display();
     }
 }
 
